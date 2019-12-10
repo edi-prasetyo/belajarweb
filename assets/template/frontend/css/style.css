@@ -1,0 +1,27 @@
+.pagination{
+    padding:15px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  } 
+  .pagination a{
+    padding: 10px 20px 10px 20px;
+    background-color: #008fe1;
+    color: #fff;
+    margin: 0;
+    border-left: 1px solid #fff;
+  }
+  .pagination .active{
+    background: #1d7ceb;
+    color: #fff;
+  }
+  .pagination a:hover{
+    text-decoration: none;
+    background-color: #1d7ceb;
+    color: #fff;
+  }
+  .pagination strong {
+    padding: 10px 20px 10px 20px;
+    background-color: #008fe1;
+    color: #fff;
+    margin: 0;
+  }
