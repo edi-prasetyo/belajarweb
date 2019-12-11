@@ -23,7 +23,7 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Kategori</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">6 Kategori</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo count($category); ?> Kategori</div>
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-tag fa-2x text-gray-300"></i>
@@ -38,7 +38,7 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total User</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">6 User</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo count($user); ?> User</div>
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-user fa-2x text-gray-300"></i>
